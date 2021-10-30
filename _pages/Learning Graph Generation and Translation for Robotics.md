@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Post example"
-date:   2019-10-26 10:00:40
-blurb: "A look at an example post using Bay Jekyll theme."
+title:  "Learning Graph Generation and Translation for Robotics"
+date:   2021-10-30 10:00:40
+blurb: "....."
 og_image: /assets/img/content/post-example/Banner.jpg
+category: "blog"
 ---
 
 <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>

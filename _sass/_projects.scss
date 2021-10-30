@@ -1,10 +1,10 @@
-.work-item {
+.projects-item {
   clear: both;
   overflow: hidden;
   padding-bottom: 3em;
 }
 
-.work-bubble {
+.projects-bubble {
   float: left;
   object-fit: cover;
   margin-right: 20px;
@@ -12,4 +12,9 @@
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   width: 100px;
   height: 100px;
+}
+
+.projects-post-title {
+  font-size: 100%;
+  letter-spacing: normal;
 }
