@@ -12,23 +12,24 @@
           {{ content }}
 
           <p class="blog-post-list">
-            {% for project in site.pages %}
+            {% for blog in site.blogs %}
             <div class="blog-item">
 
-              {% if project.draft != true %}
-              {% if project.category == "blog" %}
+              {% if blog.draft != true %}
+              {% if blog.category == "blog" %}
                 <div class="blog-item">
                   <img
-                    src="{{ project.og_image | absolute_url }}"
-                    alt="{{ project.title }}"
+                    src="{{ blog.og_image | absolute_url }}"
+                    alt="{{ blog.title }}"
                     class="blog-bubble"
                   />
                   <span class="blog-text">
                     <a href="{{ project.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                      <strong>{{ project.title }}</strong>
+                      <strong>{{ blog.title }}</strong>
                     </a>
                     &mdash;
-                    {{ project.blurb }}
+                    {{ blog.blurb }}
+                    <span class="blog-post-date">{{ blog.date | date: "%-m/%-d/%y" }}</span>
                   </span>
                 </div>
 

@@ -64,6 +64,13 @@
 
 .post-pic {
   border: #999 1px solid;
+  align-items: center;
+  max-width: 90%;
+}
+
+.post-pic-internal {
+  border: #999 0.5px solid;
+  align-items: center;
 }
 
 .magnify {

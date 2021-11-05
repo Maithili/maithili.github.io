@@ -1,18 +1,17 @@
 ---
 layout: post
-title:  "Motion Potential RRT for Motion Planning"
+title:  "Subsumption-based Planning over Affordances"
 date:   2019-10-26 10:00:40
-blurb: "This work proposes gradient descent on artificial potential fields as a steer function in RRT and it's variants. It is shown to provide superior obstacle clearance with no compromise on the runtime performance against straight-line steer on RRT, RRT-connect and RRT*."
-og_image: /assets/img/project_mprrt.jpeg
+blurb: "The goal achieve complex tasks using potential-based wayfields associated with each constituent atomic motion. A null-space subsumption architecture was used to execute multiple motions while ensuring that any action cannot negatively impact another that has a higher priority."
+og_image: /assets/img/project_affordances.jpeg
 category: "projects"
 ---
 
-<img src="{{ "/assets/img/project_mprrt.jpeg" | absolute_url }}" alt="MP-RRT" class="post-pic"/>
+<img src="{{ "/assets/img/project_affordances.jpeg" | absolute_url }}" alt="project_affordances" class="post-pic"/>
 <br />
 <br />
 
 This is an example of blog post.
-Picture by [Bethany Legg](https://unsplash.com/@bkotynski).
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum[^1].
 

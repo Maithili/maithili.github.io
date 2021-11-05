@@ -55,5 +55,7 @@ exclude:
 version: 1
 
 collections:
-  pages:
+  blogs:
+    output: true
+  projects:
     output: true
