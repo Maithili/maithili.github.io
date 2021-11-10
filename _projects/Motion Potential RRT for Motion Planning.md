@@ -4,7 +4,6 @@ title:  "Motion Potential RRT for Motion Planning"
 date:   2020-12-01 10:00:40
 blurb: "This work proposes gradient descent on artificial potential fields as a steer function in RRT and it's variants. This provides superior obstacle clearance with no compromise on the runtime performance against straight-line steer on RRT, RRT-connect and RRT*."
 og_image: /assets/img/projects/MP-RRT/project_mprrt.jpeg
-category: "projects"
 ---
 
 <img src="{{ "/assets/img/projects/MP-RRT/project_mprrt.jpeg" | absolute_url }}" alt="MP-RRT" class="post-pic"/>

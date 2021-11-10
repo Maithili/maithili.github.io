@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "A Day in the Life of my Coffee Mug"
+title:  "Predictive Spatio-Temporal Object Mapping to Understand in-home Routines"
 date:   2021-11-05 10:00:40
-blurb: "Robotics today is striving to become more intelligent, and while the definition of intelligence in robots isn't agreed upon, we all agree that we're not there yet. Between the symbols that machines can manipulate and the fuzziness of the real world lies a 'semantic gap'. 'Semantic' here does not bear a unified definition, but we aim to target some form of it as we learn to ground people's daily routines. The simple reasoning here is that if we want a robot to assist the human through their daily life, it must first understand their daily life."
-og_image: /assets/img/blogs/ADLCM/coffee_mug.jpeg
-category: "blog"
+blurb: "Robotics today is striving to become more intelligent. Between the symbols that machines can manipulate and the fuzziness of the real world lies a 'semantic gap'. 'Semantic' does not bear a unified definition, but we aim to target a form of it as we try to understand people's daily routines. The simple reasoning being that if we want a robot to assist a human through their daily life, it must first understand their daily life."
+og_image: /assets/img/projects/PSTOM/routine.jpg
 ---
 
-<img src="{{ "/assets/img/blogs/ADLCM/coffee_mug.jpeg" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/projects/PSTOM/routine.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 
@@ -37,10 +36,10 @@ Since we propose using object locations and states as a reflection of the routin
 
 Recently scene graphs have been used as a natural way of expressing semantic objects and spatial (topological) relations between them. The following portray some examples of scene graphs
 
-<img src="{{ "/assets/img/blogs/ADLCM/scene_graph_1.png" | absolute_url }}" alt="SceneGraph1" width="550" class="post-pic-internal"/>
+<img src="{{ "/assets/img/projects/PSTOM/scene_graph_1.png" | absolute_url }}" alt="SceneGraph1" width="550" class="post-pic-internal"/>
 Kim et al. [^1]
 
-<img src="{{ "/assets/img/blogs/ADLCM/scene_graph_2.png" | absolute_url }}" alt="SceneGraph2" width="550" class="post-pic-internal"/>
+<img src="{{ "/assets/img/projects/PSTOM/scene_graph_2.png" | absolute_url }}" alt="SceneGraph2" width="550" class="post-pic-internal"/>
 Liu et al. [^2]
 
 We intend to adopt this representation to express objects in the house at a given time as a scene graph. We formuate the temporal learning problem over such a scene graph as that of conditional graph translation, i.e. that of producing a graph, given a graph and conditioned on a context. For our problem, the given graph is the scene graph at a past/present time, and we want to infer one at future time from that conditioned on a context which encodes information about the times, and possibly even about human preferences and any human activity that we may know about.

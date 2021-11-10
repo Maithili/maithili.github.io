@@ -16,7 +16,6 @@
             <div class="blog-item">
 
               {% if blog.draft != true %}
-              {% if blog.category == "blog" %}
                 <div class="blog-item">
                   <img
                     src="{{ blog.og_image | absolute_url }}"
@@ -33,7 +32,6 @@
                   </span>
                 </div>
 
-              {% endif %}
               {% endif %}
 
             {% endfor %}
