@@ -12,7 +12,7 @@
           {{ content }}
 
           <p class="blog-post-list">
-            {% for blog in site.blogs %}
+            {% for blog in site.blogs reversed %}
             <div class="blog-item">
 
               {% if blog.draft != true %}

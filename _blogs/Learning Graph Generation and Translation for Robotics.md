@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning Graph Generation and Translation for Robotics"
+title:  "Graphs in Semantic Robotics"
 date:   2021-10-30 10:00:40
 blurb: "....."
 og_image: /assets/img/content/post-example/Banner.jpg
@@ -10,9 +10,9 @@ og_image: /assets/img/content/post-example/Banner.jpg
 <br />
 <br />
 
-This is an example of blog post.
+Graphs have been used as a versatile tool to represent many complex relations in AI and Robotics, like social networks, spatial maps, knowledge bases, molecules, etc. As a result of its vast but varied application, many different tools have been developed to generate and carry out inference over these structures. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum[^1].
+Today I wanted to talk about the applicability of these in the context of semantic robotics. We will scope semantics here to mean the understanding of objects and activities beyond labels.
 
 <br />
 

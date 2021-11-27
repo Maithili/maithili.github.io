@@ -7,6 +7,8 @@
 .projects-bubble {
   float: left;
   object-fit: cover;
+  top: 50%;
+  bottom: 50%;
   margin-right: 20px;
   border-radius: 50%;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);

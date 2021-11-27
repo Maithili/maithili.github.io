@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Predictive Spatio-Temporal Object Mapping to Understand in-home Routines"
+title:  "Spatio-Temporal Object Mapping to Understand In-home Routines"
 date:   2021-11-05 10:00:40
-blurb: "Robotics today is striving to become more intelligent. Between the symbols that machines can manipulate and the fuzziness of the real world lies a 'semantic gap'. 'Semantic' does not bear a unified definition, but we aim to target a form of it as we try to understand people's daily routines. The simple reasoning being that if we want a robot to assist a human through their daily life, it must first understand their daily life."
+blurb: "Between the symbols that machines can manipulate and the fuzziness of the real world lies a 'semantic gap'. Whilst it doesn't bear a unified definition, we target a form of it by modeling daily routines. The simple reasoning being that to proactively assist a human through their daily life, a robot must first understand their daily life."
 og_image: /assets/img/projects/PSTOM/routine.jpg
 ---
 
@@ -32,7 +32,7 @@ Since we propose using object locations and states as a reflection of the routin
 <br />
 <br />
 
-#### OUR PLAN
+#### OUR PERSPECTIVE ON THE PROBLEM
 
 Recently scene graphs have been used as a natural way of expressing semantic objects and spatial (topological) relations between them. The following portray some examples of scene graphs
 

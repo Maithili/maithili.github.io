@@ -214,3 +214,15 @@ pre {
     }
   }
 }
+
+.experience-bubble {
+  float: left;
+  object-fit: scale-down;
+  margin-right: 15px;
+  padding: 1px;
+  border-radius: 28%;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  width: 60px;
+  height: 60px;
+  opacity: 70%;
+}
