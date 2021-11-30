@@ -22,7 +22,7 @@ items:
     image:
       src: /assets/img/fun_reading_icon.jpg
       alt: read
-    description: I grew up a voracious reader, and till date find solace in turning pages as I drift to sleep. The younger me read solely to be transported to a another world, the reading being limited to fiction, but I've lately explored out of that zone and have discovered some beautiful pieces. Not trusting my own memory on when I read what, I try log my reads <a href="https://www.goodreads.com/user/show/97468799-maithili" class="blog-post-title"> here</a>.
+    description: I grew up a voracious reader, and till date find solace in turning pages as I drift to sleep. The younger me read solely to be transported to another world, the reading being limited to fiction, but I've lately explored out of that zone and have discovered some beautiful pieces. Not trusting my own memory on when I read what, I've begun to log my reads <a href="https://www.goodreads.com/user/show/97468799-maithili" class="blog-post-title"> here</a>.
 
 # Racing
 

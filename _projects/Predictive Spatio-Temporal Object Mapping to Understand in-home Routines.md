@@ -2,7 +2,7 @@
 layout: post
 title:  "Spatio-Temporal Object Mapping to Understand In-home Routines"
 date:   2021-11-05 10:00:40
-blurb: "Between the symbols that machines can manipulate and the fuzziness of the real world lies a 'semantic gap'. Whilst it doesn't bear a unified definition, we target a form of it by modeling daily routines. The simple reasoning being that to proactively assist a human through their daily life, a robot must first understand their daily life."
+blurb: "Between the symbols that machines can manipulate, and the fuzziness of the real world, lies a 'semantic gap'. Whilst it doesn't bear a unified definition, we target to bridge a form of it by modeling daily routines. The simple reasoning being that to proactively assist a human through their daily life, a robot must first understand their daily life."
 og_image: /assets/img/projects/PSTOM/routine.jpg
 ---
 
@@ -42,9 +42,11 @@ Kim et al. [^1]
 <img src="{{ "/assets/img/projects/PSTOM/scene_graph_2.png" | absolute_url }}" alt="SceneGraph2" width="550" class="post-pic-internal"/>
 Liu et al. [^2]
 
-We intend to adopt this representation to express objects in the house at a given time as a scene graph. We formuate the temporal learning problem over such a scene graph as that of conditional graph translation, i.e. that of producing a graph, given a graph and conditioned on a context. For our problem, the given graph is the scene graph at a past/present time, and we want to infer one at future time from that conditioned on a context which encodes information about the times, and possibly even about human preferences and any human activity that we may know about.
+We intend to adopt this representation to express objects in the house at a given time as a scene graph. We formuate the temporal learning problem over such a scene graph as that of conditional graph translation.
 
-As a first step to testing the viability of this approach, we plan on adopting a neural network based graph translation framework called [NEC_DGT](https://ieeexplore.ieee.org/document/8970898) which shows promising results on synthetic data and small molecular and cyber-networks. We would adapt this method for our problem of predicting the scene graph representation of the scene at a query time, given the scene graph at a prior time, with the context being a function of the query and prior timestamps.
+[//]: # i.e. that of producing a graph, given a graph and conditioned on a context. For our problem, the given graph is the scene graph at a past/present time, and we want to infer one at future time from that conditioned on a context which encodes information about the times, and possibly even about human preferences and any human activity that we may know about.
+
+[//]: # As a first step to testing the viability of this approach, we plan on adopting a neural network based graph translation framework called [NEC_DGT](https://ieeexplore.ieee.org/document/8970898) which shows promising results on synthetic data and small molecular and cyber-networks. We would adapt this method for our problem of predicting the scene graph representation of the scene at a query time, given the scene graph at a prior time, with the context being a function of the query and prior timestamps. >
 
 <br />
 <br />
