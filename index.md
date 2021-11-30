@@ -4,31 +4,22 @@ profile_picture:
   src: /assets/img/profile.jpg
   alt: website picture
 items:
-  - title: GT
-    image:
-      src: /assets/img/personal/GT.png
-      alt: GT
-    description: 2021-Today
-  - title: TRI
-    image:
-      src: /assets/img/personal/TRI.png
-      alt: TRI
-    description: 2021
-  - title: Zen
-    image:
-      src: /assets/img/personal/Zen.jpeg
-      alt: Zen
-    description: 2019-21
-  - title: UM
-    image:
-      src: /assets/img/personal/UM.png
-      alt: UM
-    description: 2017-19
   - title: IITB
     image:
       src: /assets/img/personal/IITB.png
       alt: IITB
-    description: 2013-17
+  - title: UM
+    image:
+      src: /assets/img/personal/UM.png
+      alt: UM
+  - title: TRI
+    image:
+      src: /assets/img/personal/TRI.png
+      alt: TRI
+  - title: GT
+    image:
+      src: /assets/img/personal/GT.png
+      alt: GT
 ---
 
 <p>

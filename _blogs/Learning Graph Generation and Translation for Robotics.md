@@ -4,6 +4,7 @@ title:  "Graphs in Semantic Robotics"
 date:   2021-10-30 10:00:40
 blurb: "....."
 og_image: /assets/img/content/post-example/Banner.jpg
+draft: True
 ---
 
 <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>

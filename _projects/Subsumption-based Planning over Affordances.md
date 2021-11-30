@@ -4,6 +4,7 @@ title:  "Subsumption-based Planning over Affordances"
 date:   2019-10-26 10:00:40
 blurb: "The goal achieve complex tasks using potential-based wayfields associated with each constituent atomic motion. A null-space subsumption architecture was used to execute multiple motions while ensuring that any action cannot negatively impact another that has a higher priority."
 og_image: /assets/img/project_affordances.jpeg
+draft: True
 ---
 
 <img src="{{ "/assets/img/project_affordances.jpeg" | absolute_url }}" alt="project_affordances" class="post-pic"/>
