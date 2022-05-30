@@ -13,8 +13,8 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Projects
-    - name: Blog
+    - name: Research
+    # - name: Blog
     - name: Fun
 
 footer:
@@ -58,4 +58,6 @@ collections:
   blogs:
     output: true
   projects:
+    output: true
+  research:
     output: true
