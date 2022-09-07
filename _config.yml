@@ -13,23 +13,25 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Research
+    # - name: Research
+    - name: News
+    - name: Publications
     # - name: Blog
-    - name: Fun
+    - name: Hobbies
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: maithili@gatech.edu
-      link: mailto:maithili@gatech.edu
+      value: maithili at gatech dot edu
+      # link: mailto:maithili@gatech.edu
   follow:
-    - name: Facebook
-      link: https://www.facebook.com/Maithili3110
     - name: LinkedIn
       link: http://linkedin.com/in/Maithili
     - name: GitHub
       link: http://github.com/Maithili
+    - name: Facebook
+      link: https://www.facebook.com/Maithili3110
 
 # Build settings
 markdown: kramdown

@@ -136,18 +136,22 @@
   width: calc(33% - (#{$spacing-unit} / 2));
 }
 
-.footer-col-3 {
-  font-size: 7pt !important;
-  text-align: right;
-
-  a:link {
-    color: $grey-color; 
-  }
-  
-  a:visited {
-    color: $grey-color;
-  }
+.footer-col-1 {
+  font-size:20px !important;
 }
+
+// .footer-col-3 {
+//   font-size: 7pt !important;
+//   text-align: right;
+
+//   a:link {
+//     color: $grey-color; 
+//   }
+  
+//   a:visited {
+//     color: $grey-color;
+//   }
+// }
 
 .follow-links > .social-link {
   flex: 0 50%;
@@ -156,6 +160,16 @@
 .powered-by {
   font-size: 13px;
   color: $grey-color;
+  font-size: 7pt !important;
+  text-align: left;
+
+  a:link {
+    color: $grey-color; 
+  }
+  
+  a:visited {
+    color: $grey-color;
+  }
 }
 
 @include media-query($on-mobile) {

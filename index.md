@@ -23,8 +23,8 @@ items:
 ---
 
 <p>
-  I am a Robotics Ph.D. student at GeorgiaTech, advised by Prof. Sonia Chernova. My overarching research goal is to bridge the semantic gap in household assistive robots to make them more effective in unstructured everyday environments.
+  I am a Robotics Ph.D. student at GeorgiaTech, advised by Prof. Sonia Chernova. The goal of my research is to create  robots capable of proactively assisting the user with their everyday activities by developing an understanding of their routine in context of the environment.
 </p>
 <p>
-  Prior to this, I worked with Toyota Research Institute on autonomous driving, specifically mapping. Before that, I obtained my master's degree at the University of Michigan in Ann Arbor, and my undergraduate degree at the Indian Institute of Technology, Bombay.
+  Prior to this, I was in the autonomous vehicles industry working with Toyota Research Institute on mapping, and with Zenuity on localization. Before that, I obtained my master's degree at the University of Michigan in Ann Arbor, where I was advised by Prof. Chad Jenkins. I earned my undergraduate degree at the Indian Institute of Technology, Bombay.
 </p>

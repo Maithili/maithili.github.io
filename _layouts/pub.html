@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="pub">
+          <h1 class="page-heading">{{ page.title }}</h1>
+          {{ content }}
+
+          {% for item in page.items %}
+          <div class="pub-item">
+            <img
+              src="{{ item.image.src | absolute_url }}"
+              alt="{{ item.image.alt }}"
+              class="pub-bubble"
+            />
+            <span class="pub-text">
+              <strong>{{ item.title }}</strong>
+              &mdash;
+              {% for auth in item.authors %}
+              {% assign check = auth | slice: 0, 8 %}
+              {% if forloop.index == forloop.length %}
+                {% if check == "Maithili" %}
+                  <strong>{{ auth }}</strong>
+                  {% else %}
+                    {{ auth }}
+                  {% endif %}
+                {% else %}
+                {% if check == "Maithili" %}
+                  <strong>{{ auth }},</strong>
+                  {% else %}
+                    {{ auth }},
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              <p><i>{{ item.conf }}</i>
+              {% for pdf in item.pdf %}
+                <!-- <div class="pub-icon"> -->
+                  <a href={{pdf}} id="pdf">
+                  <img
+                  src="/assets/img/icons/pdf.jpeg"
+                  alt="pdf"
+                  width = "15"
+                  height = "15"
+                  /></a>
+                <!-- </div> -->
+              {% endfor %}</p>
+            </span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>
