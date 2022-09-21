@@ -3,6 +3,8 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2022-09-20
+    line: Selected to participate in the 2022 class of <a href="https://research.google/outreach/csrmp/"><b>Google CS Research Mentorship Program</b></a>.
   - date: 2022-09-10
     line: Our paper <a href="https://openreview.net/forum?id=th7GW868Pok"><b>Proactive Robot Assistance via Spatio-Temporal Object Modeling</b></a> got accepted at Conference on Robot Learning, 2022.
   - date: 2022-06-17
