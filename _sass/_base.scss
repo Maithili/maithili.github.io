@@ -119,8 +119,9 @@ a {
   // }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: rgb(182, 136, 10) !important;
+    // $text-color;
+    // text-decoration: underline;
   }
 }
 

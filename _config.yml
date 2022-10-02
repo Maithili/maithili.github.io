@@ -26,6 +26,8 @@ footer:
       value: maithili at gatech dot edu
       # link: mailto:maithili@gatech.edu
   follow:
+    - name: Google Scholar
+      link: https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en
     - name: LinkedIn
       link: http://linkedin.com/in/Maithili
     - name: GitHub
