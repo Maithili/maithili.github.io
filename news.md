@@ -3,6 +3,8 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2022-10-24
+    line: Our paper <a href="https://doi.org/10.1016/j.robot.2022.104294"><b>A survey of semantic reasoning frameworks for robotic systems</b></a> is available online and will be published at the Robotics and Autonomous Systems (RAS) journal.
   - date: 2022-09-20
     line: Selected to participate in the 2022 class of <a href="https://research.google/outreach/csrmp/"><b>Google CS Research Mentorship Program</b></a>.
   - date: 2022-09-10
