@@ -49,7 +49,17 @@
                   /></a>
                 <!-- </div> -->
               {% endfor %}
-
+              {% for vid in item.vid %}
+              <!-- <div class="pub-icon"> -->
+                <a href={{vid}} id="vid">
+                <img
+                src="/assets/img/icons/vid.png"
+                alt="video"
+                width = "20"
+                height = "15"
+                /></a>
+              <!-- </div> -->
+            {% endfor %}
               {% for cite in item.cite %}
                 <!-- <div class="pub-icon"> -->
                   <a href={{cite}} id="pdf">
