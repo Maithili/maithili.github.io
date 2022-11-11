@@ -11,7 +11,7 @@ items:
       - Maithili Patel
       - Sonia Chernova. 
     conf: Conference on Robot Learning (CoRL), 2022
-    pdf: assets/papers/Proactive_Robot_Assistance_via_Spatio_Temporal_Object_Tracking.pdf
+    pdf: https://openreview.net/pdf?id=th7GW868Pok
     cite: https://scholar.googleusercontent.com/scholar.bib?q=info:iIzjc8ZqIaIJ:scholar.google.com/&output=citation&scisdr=CgWzs6gyEL228qyXKzQ:AAGBfm0AAAAAYzyRMzTtTpghFa0INZLbeYRZFNOeqWU_&scisig=AAGBfm0AAAAAYzyRM5UcRGGkToReoyGbhl3RdgkSSMtx&scisf=4&ct=citation&cd=-1&hl=en
     vid: https://youtu.be/p79IAyvnOuY
 
