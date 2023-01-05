@@ -4,7 +4,7 @@ title: News
 slug: /pub
 items:
   - date: 2022-12-19
-    line: My research on "Longitudinal Proactive Robot Assistance" has been accepted for inclusion in the <a href="https://hripioneers.org">HRI Pioneers 2023</a> Workshop.
+    line: My research on "Longitudinal Proactive Robot Assistance" has been accepted for inclusion in the <a href="https://hripioneers.org"><b>HRI Pioneers 2023</b></a> Workshop.
   - date: 2022-10-24
     line: Our paper <a href="https://doi.org/10.1016/j.robot.2022.104294"><b>A survey of semantic reasoning frameworks for robotic systems</b></a> is available online and will be published at the Robotics and Autonomous Systems (RAS) journal.
   - date: 2022-09-20
