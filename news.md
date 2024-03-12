@@ -3,6 +3,12 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2023-11-09
+    line: Helped organize Conference on Robot Learning, 2023 in Atlanta, as a Student Volunteer Coordinator.
+  - date: 2023-08-30
+    line: Our paper <a href="https://openreview.net/forum?id=rvh0vkwKUM"><b>Predicting Routine Object Usage for Proactive Robot Assistance</b></a> got accepted at Conference on Robot Learning, 2023.
+  - date: 2023-03-13
+    line: Co‐organized the <a href="https://sites.google.com/view/semanticsforhri/?pli=1"><b>Semantic Scene Understanding for Human Robot Interaction</b></a> workshop at the ACM/IEEE International Conference on Human Robot Interaction (HRI), 2023
   - date: 2022-12-19
     line: My research on "Longitudinal Proactive Robot Assistance" has been accepted for inclusion in the <a href="https://hripioneers.org"><b>HRI Pioneers 2023</b></a> Workshop.
   - date: 2022-10-24
