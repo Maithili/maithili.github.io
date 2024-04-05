@@ -4,7 +4,7 @@ title: News
 slug: /pub
 items:
   - date: 2024-04-04
-    line: I was awarded a fellowship from the prestigious Georgia Robotics Fellowship program, funded by the College of Computing at GeorgiaTech.
+    line: I was awarded a fellowship from the Georgia Robotics Fellowship program, funded by the College of Computing at GeorgiaTech.
   - date: 2023-11-09
     line: Helped organize Conference on Robot Learning, 2023 in Atlanta, as a Student Volunteer Coordinator.
   - date: 2023-08-30
