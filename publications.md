@@ -3,6 +3,15 @@ layout: pub
 title: Publications
 slug: /pub
 items:
+  - title: Robot Behavior Personalization from Sparse User Feedback
+    image:
+    src: /assets/img/pub/taaco.png
+    alt: taaco
+    authors:
+      - Maithili Patel
+      - Sonia Chernova. 
+    conf: ArXiv
+    pdf: https://arxiv.org/pdf/2410.19219
 
   - title: Predicting Routine Object Usage for Proactive Robot Assistance
     image:
