@@ -5,7 +5,7 @@ slug: /pub
 items:
   - title: Robot Behavior Personalization from Sparse User Feedback
     image:
-    src: /assets/img/pub/taaco.png
+    src: https://github.com/Maithili/maithili.github.io/blob/main/assets/img/pub/taaco.png
     alt: taaco
     authors:
       - Maithili Patel
