@@ -3,6 +3,10 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2024-10-28
+    line: Selected to participate in the Doctoral Consortium at the <a href="https://rcais.github.io/">Summit on Responsible Computing, AI, and Society</a>
+  - date: 2024-10-14
+    line: Was invited to speak at the <a href="https://edmws.github.io/">Environment Dynamics Matters</a> workshop at IROS, 2024, Abu Dhabi.
   - date: 2024-04-04
     line: I was awarded a fellowship from the Georgia Robotics Fellowship program, funded by the College of Computing at GeorgiaTech.
   - date: 2023-11-09
