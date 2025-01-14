@@ -3,6 +3,8 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2024-01-03
+    line: Served as an Area Chair for Late Breaking Reports at the International Conference on Human Robot Interaction (HRI), 2025
   - date: 2024-10-28
     line: Selected to participate in the Doctoral Consortium at the <a href="https://rcais.github.io/">Summit on Responsible Computing, AI, and Society</a>
   - date: 2024-10-14
