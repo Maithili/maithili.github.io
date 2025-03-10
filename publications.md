@@ -10,7 +10,7 @@ items:
     authors:
       - Maithili Patel
       - Sonia Chernova. 
-    conf: ArXiv
+    conf: IEEE Robotics and Automation Letters (RAL), 2025
     pdf: https://arxiv.org/pdf/2410.19219
 
   - title: Predicting Routine Object Usage for Proactive Robot Assistance
