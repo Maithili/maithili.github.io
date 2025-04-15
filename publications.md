@@ -3,6 +3,35 @@ layout: pub
 title: Publications
 slug: /pub
 items:
+
+  - title: ADAPT: Actively Discovering and Adapting to Preferences for any Task
+    image:
+      src: /assets/img/pub/adapt.png
+      alt: adapt
+    authors:
+      - Maithili Patel
+      - Xavier Puig
+      - Ruta Desai
+      - Roozbeh Mottaghi
+      - Sonia Chernova
+      - Joanne Truong
+      - Akshara Rai.
+    conf: arXiV, 2025
+    pdf: https://arxiv.org/abs/2504.04040
+
+  - title: A Model-Agnostic Approach for Semantically Driven Disambiguation in Human-Robot Interaction 
+    image:
+      src: /assets/img/pub/disamb.png
+      alt: disambiguation
+    authors:
+      - Fethiye Irmak Dogan
+      - Maithili Patel
+      - Weiyu Liu
+      - Iolanda Leite
+      - Sonia Chernova.
+    conf: under review at IEEE-ROMAN, 2025
+    pdf: https://arxiv.org/pdf/2409.17004
+
   - title: Robot Behavior Personalization from Sparse User Feedback
     image:
       src: /assets/img/pub/taaco.png
@@ -11,7 +40,7 @@ items:
       - Maithili Patel
       - Sonia Chernova. 
     conf: IEEE Robotics and Automation Letters (RAL), 2025
-    pdf: https://arxiv.org/pdf/2410.19219
+    pdf: https://ieeexplore.ieee.org/document/10924711
 
   - title: Predicting Routine Object Usage for Proactive Robot Assistance
     image:
@@ -33,7 +62,6 @@ items:
       - Sonia Chernova. 
     conf: Conference on Robot Learning (CoRL), 2022
     pdf: https://openreview.net/pdf?id=th7GW868Pok
-    cite: https://scholar.googleusercontent.com/scholar.bib?q=info:iIzjc8ZqIaIJ:scholar.google.com/&output=citation&scisdr=CgWzs6gyEL228qyXKzQ:AAGBfm0AAAAAYzyRMzTtTpghFa0INZLbeYRZFNOeqWU_&scisig=AAGBfm0AAAAAYzyRM5UcRGGkToReoyGbhl3RdgkSSMtx&scisf=4&ct=citation&cd=-1&hl=en
     vid: https://youtu.be/p79IAyvnOuY
 
   - title: A Survey of Semantic Reasoning Frameworks for Robotic Systems
