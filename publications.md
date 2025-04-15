@@ -41,6 +41,7 @@ items:
       - Sonia Chernova. 
     conf: IEEE Robotics and Automation Letters (RAL), 2025
     pdf: https://ieeexplore.ieee.org/document/10924711
+    vid: https://youtu.be/bFqubhycs-c
 
   - title: Predicting Routine Object Usage for Proactive Robot Assistance
     image:
@@ -52,6 +53,7 @@ items:
       - Sonia Chernova. 
     conf: Conference on Robot Learning (CoRL), 2023
     pdf: https://openreview.net/pdf?id=rvh0vkwKUM
+    vid: https://youtu.be/zLlyM20Bi_8
 
   - title: Proactive Robot Assistance via Spatio Temporal Object Tracking
     image:
