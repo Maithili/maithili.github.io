@@ -23,8 +23,8 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: maithili at gatech dot edu
-      # link: mailto:maithili@gatech.edu
+      value: maithili@gatech.edu
+      link: mailto:maithili@gatech.edu
   follow:
     - name: Google Scholar
       link: https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en
