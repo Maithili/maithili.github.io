@@ -4,7 +4,7 @@ title: Publications
 slug: /pub
 items:
 
-  - title: ADAPT: Actively Discovering and Adapting to Preferences for any Task
+  - title: ADAPT\: Actively Discovering and Adapting to Preferences for any Task
     image:
       src: /assets/img/pub/adapt.png
       alt: adapt
