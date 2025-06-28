@@ -3,6 +3,8 @@ layout: news
 title: News
 slug: /pub
 items:
+  - date: 2025-06-18
+    line: I successfully proposed my thesis titled "Proactivity and Personalization in Longotudinal Robotic Assistance"
   - date: 2025-01-03
     line: Served as an Area Chair for Late Breaking Reports at the International Conference on Human Robot Interaction (HRI), 2025
   - date: 2024-10-28
