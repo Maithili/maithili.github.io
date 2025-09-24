@@ -16,8 +16,8 @@ items:
       - Sonia Chernova
       - Joanne Truong
       - Akshara Rai.
-    conf: arXiV, 2025
-    pdf: https://arxiv.org/abs/2504.04040
+    conf: Conference on Language Modeling (COLM), 2025
+    pdf: https://openreview.net/pdf?id=Z8vtD1egtI
 
   - title: A Model-Agnostic Approach for Semantically Driven Disambiguation in Human-Robot Interaction 
     image:
@@ -29,7 +29,7 @@ items:
       - Weiyu Liu
       - Iolanda Leite
       - Sonia Chernova.
-    conf: under review at IEEE-ROMAN, 2025
+    conf: IEEE Robot and Human Interactive Communication (RO-MAN), 2025
     pdf: https://arxiv.org/pdf/2409.17004
 
   - title: Robot Behavior Personalization from Sparse User Feedback
