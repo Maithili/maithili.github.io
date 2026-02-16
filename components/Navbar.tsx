@@ -1,13 +1,14 @@
 import React from 'react';
 import cvPdf from '../assets/CV.pdf';
+import icon from '../assets/icon.png';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 z-50 w-full bg-[#FFF9F5]/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3 group cursor-pointer">
-          <div className="size-8 rounded-lg flex items-center justify-center text-white bg-[#2D4A6B]">
-            <span className="material-symbols-outlined text-xl">precision_manufacturing</span>
+          <div className="size-8 rounded-lg flex items-center justify-center overflow-hidden bg-[#2D4A6B]">
+            <img src={icon} alt="" className="size-full object-contain p-1" />
           </div>
           <span className="text-lg font-extrabold tracking-tight text-[#1A1A1A]">Maithili Patel</span>
         </a>

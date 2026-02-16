@@ -30,6 +30,31 @@ const Home: React.FC = () => {
                 <p className="text-lg text-gray-500 leading-relaxed max-w-lg">
                   Developing proactive robots for human  environments. Bridging robot learning and human-centered autonomy.
                 </p>
+                <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                  <a href="https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#FFF2EB] border border-[#FFE4D6] text-sm font-bold text-[#1A1A1A] hover:bg-white hover:border-[#2D4A6B]/20 transition-all shadow-sm w-fit" aria-label="Google Scholar">
+                    <span className="size-8 flex items-center justify-center shrink-0">
+                      <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+                    </span>
+                    <span>Google Scholar</span>
+                  </a>
+                  <div className="inline-flex items-center gap-3 px-4 py-2.5 rounded-xl bg-[#FFF2EB] border border-[#FFE4D6] shadow-sm">
+                    <span className="text-sm font-black text-[#1A1A1A] shrink-0">Let&apos;s Connect</span>
+                    <div className="flex items-center gap-2">
+                      <a href="https://www.linkedin.com/in/maithili" target="_blank" rel="noopener noreferrer" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="LinkedIn">
+                        <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                      </a>
+                      <a href="mailto:maithili@gatech.edu" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="Email">
+                        <svg className="size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                      </a>
+                      <a href="https://x.com/MaithiliPatel31" target="_blank" rel="noopener noreferrer" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="X (Twitter)">
+                        <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                      </a>
+                      <a href="https://instagram.com/_maithili31" target="_blank" rel="noopener noreferrer" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="Instagram">
+                        <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="order-1 md:order-2 flex justify-center md:justify-end">
@@ -52,8 +77,7 @@ const Home: React.FC = () => {
       {/* Bio Section - WHITE Background */}
       <section className="bg-white py-32 border-y border-gray-100" id="about">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="flex flex-col lg:flex-row gap-12 items-start">
-            <div className="flex-1 min-w-0 space-y-8">
+          <div className="space-y-8">
               <h2 className="text-3xl font-black flex items-center gap-4 font-serif text-[#1A1A1A]">
                 <span className="size-3 bg-[#5BA4A4] rounded-full"></span> Bio
               </h2>
@@ -61,36 +85,6 @@ const Home: React.FC = () => {
                 <p> I am a final year Robotics Ph.D. student advised by Professor Sonia Chernova, at GeorgiaTech. My research focuses on developing service robots that seamlessly integrate into users' daily lives, functioning as <span className="text-[#1A1A1A] font-bold">effective and proactive assistants</span> over extended interactions. This involves anticipating assistive opportunities, and generalizing user preferences regarding mode of robot assistance and manner of task execution. I leverage unobtrusive observations of user behavior and limited interaction with the user to address proactivity and personalization. Ultimately, my goal is to build a robot system that can autonomously predict when and how to perform various helpful assistive actions, alleviating not only the users’ physical effort of performing tasks, but also their cognitive burden of managing tasks and ensuring that things get done.</p>
                 <p>I was selected to participate in RCAIS Doctoral Consortium, in 2024, HRI Pioneers workshop in 2023 and RPL Summer School, at KTH, Sweden in 2022. I also helped organize CoRL, 2023 and co-organized a workshop at HRI 2023. Through my PhD, I worked with Akshara Rai at Meta in 2024, and with Chandra Bhagavatula at Allen Institute of AI (AI2) in 2023. Prior to starting my PhD, I worked with Toyota Research Institute and Zenuity on mapping and localization for autonomous vehicles, and obtained my master’s degree at the University of Michigan in Ann Arbor, with Prof. Chad Jenkins.</p>
               </div>
-            </div>
-
-            <div className="w-fit shrink-0 lg:self-end space-y-4">
-              <a href="https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm font-bold text-[#1A1A1A] hover:text-[#2D4A6B] transition-colors" aria-label="Google Scholar">
-                <span className="size-11 flex items-center justify-center rounded-lg bg-[#FFF2EB] border border-[#FFE4D6] text-[#1A1A1A] hover:bg-white hover:border-[#2D4A6B]/20 transition-all shadow-sm shrink-0">
-                  <svg className="size-6 fill-current" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
-                </span>
-                <span className="flex flex-col leading-tight">
-                  <span>Google</span>
-                  <span>Scholar</span>
-                </span>
-              </a>
-              <div className="bg-[#FFF2EB] p-4 rounded-2xl border border-[#FFE4D6] shadow-sm">
-                <h3 className="text-lg font-black mb-4 font-serif text-[#1A1A1A] leading-tight">Let&apos;s<br />Connect</h3>
-                <div className="flex flex-col gap-2">
-                  <a href="https://www.linkedin.com/in/maithili/" target="_blank" rel="noopener noreferrer" className="size-10 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all shadow-sm" aria-label="LinkedIn">
-                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                  </a>
-                  <a href="mailto:maithili@gatech.edu" className="size-10 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all shadow-sm" aria-label="Email">
-                    <svg className="size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                  </a>
-                  <a href="https://x.com/MaithiliPatel31" target="_blank" rel="noopener noreferrer" className="size-10 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all shadow-sm" aria-label="X (Twitter)">
-                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                  </a>
-                  <a href="https://instagram.com/_maithili31" target="_blank" rel="noopener noreferrer" className="size-10 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all shadow-sm" aria-label="Instagram">
-                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -1,3 +1,3 @@
 Personal Webpage
 
-https://maithili.github.io
+[maithili.github.io](https://maithili.github.io)
