@@ -10,30 +10,28 @@ const Footer: React.FC = () => {
             <div className="size-6 bg-primary/20 rounded-full flex items-center justify-center">
               <div className="size-2 bg-primary rounded-full"></div>
             </div>
-            <p className="text-sm font-bold text-gray-500">© 2024 Maithili Patel — PhD Research</p>
+            <p className="text-sm font-bold text-gray-500">© 2026 Maithili Patel — PhD Research</p>
           </div>
           <div className="flex gap-6">
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
+            <a href="mailto:maithili@gatech.edu" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
               <span className="material-symbols-outlined text-xl">mail</span>
               Email
             </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
+            <a href="https://www.linkedin.com/in/maithili" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
               <span className="material-symbols-outlined text-xl">link</span>
               LinkedIn
             </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
+            <a href="https://github.com/Maithili" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
               <span className="material-symbols-outlined text-xl">terminal</span>
               GitHub
             </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
+            <a href="https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
               <span className="material-symbols-outlined text-xl">school</span>
               Scholar
             </a>
           </div>
           <div className="flex items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
             <span>Georgia Tech</span>
-            <span className="size-1 bg-gray-300 rounded-full"></span>
-            <span>RIM Center</span>
           </div>
         </div>
       </div>
