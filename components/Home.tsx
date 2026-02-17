@@ -247,7 +247,7 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 flex flex-col justify-end group-hover:overflow-y-auto group-hover:from-black/90 transition-colors duration-300">
                 <div className="group-hover:bg-black/40 group-hover:rounded-lg group-hover:px-3 group-hover:py-2  transition-colors duration-300">
                   <h3 className="text-lg font-bold text-white mb-1 group-hover:[text-shadow:0_1px_3px_rgba(0,0,0,0.8)]">Rock Climbing</h3>
-                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)]">What started as a social hobby has grown into something I&apos;ve grown very fond of. Scaling a hard route gives me a dual satisfaction of problem-solving as well as physical can-do. It is also the one place where falling is fun!</p>
+                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)]">What started as a social hobby has become something I truly love. I went from casually bouldering on plastic jugs to climbing outdoors and enjoying indoor sport routes. Problem-solving meets physical skill meets proprioception...almost like dancing on a wall.</p>
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 flex flex-col justify-end group-hover:overflow-y-auto group-hover:from-black/90 transition-colors duration-300">
                 <div className="group-hover:bg-black/40 group-hover:rounded-lg group-hover:px-3 group-hover:py-2  transition-colors duration-300">
                   <h3 className="text-lg font-bold text-white mb-1 group-hover:[text-shadow:0_1px_3px_rgba(0,0,0,0.8)]">Dance</h3>
-                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)]">I&apos;ve been practicing Brazilian Zouk form of social dance for about 4 years now. Little else makes me so happy as that feeling of harmony from a nice dance; it&apos;s my meditation!</p>
+                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)]">I&apos;ve been dancing Brazilian Zouk since 2019, and honestly, nothing else makes me grin quite like moving in perfect sync with someone to a sweet little tune. It&apos;s my happy place...my meditation on the dance floor!</p>
                 </div>
               </div>
             </div>
@@ -277,7 +277,7 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 flex flex-col justify-end group-hover:overflow-y-auto group-hover:from-black/90 transition-colors duration-300">
                 <div className="group-hover:bg-black/40 group-hover:rounded-lg group-hover:px-3 group-hover:py-2  transition-colors duration-300">
                   <h3 className="text-lg font-bold text-white mb-1 group-hover:[text-shadow:0_1px_3px_rgba(0,0,0,0.8)]">Reading</h3>
-                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)] [&_a]:text-white [&_a]:underline [&_a]:hover:opacity-90">I grew up a voracious reader, and till date find solace in turning pages as I drift to sleep. The younger me read solely to be transported to another world; I&apos;ve lately explored out of that zone and discovered some beautiful pieces. I log my reads <a href="https://www.goodreads.com/user/show/97468799-maithili" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                  <p className="text-white/70 text-xs line-clamp-3 group-hover:line-clamp-none group-hover:[text-shadow:0_1px_2px_rgba(0,0,0,0.7)] [&_a]:text-white [&_a]:underline [&_a]:hover:opacity-90">I grew up a voracious reader and still find comfort in turning pages before sleep. As a child, I read to escape into other worlds; more recently, I’ve explored beyond that and found some truly remarkable works. I log my reading <a href="https://www.goodreads.com/user/show/97468799-maithili" target="_blank" rel="noopener noreferrer">here</a>.</p>
                 </div>
               </div>
             </div>
