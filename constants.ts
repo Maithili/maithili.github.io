@@ -164,7 +164,7 @@ export const PUBLICATIONS: Publication[] = [
 
 export const UPDATES: Update[] = [
   { date: 'Jan 2026', title: '', description: 'Served as Area Chair for Late Breaking Reports at the ACM/IEEE International Conference on Human Robot Interaction (HRI), 2026.' },
-  { date: 'Aug 2025', title: '', description: 'Presented my work "Robot Behavior Personalization From Sparse User Feedback" at IEEE-ROMAN, Netherlands.' },
+  { date: 'Jul 2025', title: '', description: 'Our paper <a href="https://openreview.net/pdf?id=Z8vtD1egtI" target="_blank" rel="noopener noreferrer"><b>ADAPT: Actively Discovering and Adapting to Preferences for any Task</b></a>, has been accepted to Conference on Language Modeling (COLM), 2025'},
   { date: 'Jun 2025', title: '', description: 'I successfully proposed my thesis titled "Proactivity and Personalization in Longitudinal Robotic Assistance".' },
   { date: 'May 2025', title: '', description: 'Served as Student Volunteer for IEEE International Conference on Robotics and Automation (ICRA), 2025.' },
   { date: 'Feb 2025', title: '', description: 'Our paper <a href="https://ieeexplore.ieee.org/document/10924711" target="_blank" rel="noopener noreferrer"><b>Robot Behavior Personalization From Sparse User Feedback</b></a> was accepted at IEEE-Robotics and Automation Letters RAL.' },
