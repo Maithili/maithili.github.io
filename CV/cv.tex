@@ -1,0 +1,119 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.8cm, top=2.8cm, right=1.8cm, bottom=2.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+% \definecolor{awesome-emerald}{HTML}{00A388}
+% \definecolor{awesome-skyblue}{HTML}{0395DE}
+% \definecolor{awesome-red}{HTML}{DC3522}
+% \definecolor{awesome-pink}{HTML}{EF4089}
+% \definecolor{awesome-orange}{HTML}{FF6138}
+% \definecolor{awesome-nephritis}{HTML}{27AE60}
+% \definecolor{awesome-concrete}{HTML}{95A5A6}
+% \definecolor{awesome-darknight}{HTML}{131A28}
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{profile}
+\name{Maithili}{Patel}
+\position{Postdoctoral Researcher {\enskip\cdotp\enskip} Robotics {\enskip\cdotp\enskip} Carnegie Mellon University}
+% \address{855 Peachtree St NE, Atlanta, GA. 30308}
+
+% \mobile{(+1) 734-709-0550}
+\email{maithili@cmu.edu}
+\homepage{maithili.github.io}
+% \github{Maithili}
+\linkedin{maithili}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\twitter{@MaithiliPatel31}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+% \quote{}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Maithili Patel~~~·~~~Curriculum Vitae}
+  {}
+
+\vspace{4.5mm}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+% \input{resume/summary.tex}
+\input{resume/research_interests.tex}
+\input{resume/education.tex}
+\input{resume/publications.tex}
+\input{resume/academic_activities.tex}
+\input{resume/research_experience.tex}
+\input{resume/experience.tex}
+\newpage
+\input{resume/teaching.tex}
+% \input{resume/skills.tex}
+% \input{resume/interests.tex}
+%-------------------------------------------------------------------------------
+\end{document}

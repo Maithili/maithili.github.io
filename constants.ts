@@ -163,6 +163,9 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const UPDATES: Update[] = [
+  { date: 'Aug 2026', title: '', description: 'Started as a Postdoctoral Researcher at Carnegie Mellon University, working with Prof. Yonatan Bisk.' },
+  { date: 'Aug 2026', title: '', description: 'Awarded the Carnegie Bosch Institute <b>(CBI) Postdoctoral Fellowship</b>, 2026.' },
+  { date: 'Jul 2026', title: '', description: '<b>Defended</b> my PhD thesis on "Proactivity and Personalization in Longitudinal Robotic Assistance".' },
   { date: 'Jan 2026', title: '', description: 'Served as Area Chair for Late Breaking Reports at the ACM/IEEE International Conference on Human Robot Interaction (HRI), 2026.' },
   { date: 'Jul 2025', title: '', description: 'Our paper <a href="https://openreview.net/pdf?id=Z8vtD1egtI" target="_blank" rel="noopener noreferrer"><b>ADAPT: Actively Discovering and Adapting to Preferences for any Task</b></a>, has been accepted to Conference on Language Modeling (COLM), 2025'},
   { date: 'Jun 2025', title: '', description: 'I successfully proposed my thesis titled "Proactivity and Personalization in Longitudinal Robotic Assistance".' },

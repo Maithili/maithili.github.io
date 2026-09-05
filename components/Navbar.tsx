@@ -1,5 +1,5 @@
 import React from 'react';
-import cvPdf from '../assets/CV.pdf';
+import cvPdf from '../CV/cv.pdf';
 import icon from '../assets/icon.png';
 
 const Navbar: React.FC = () => {

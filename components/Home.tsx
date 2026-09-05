@@ -25,7 +25,7 @@ const Home: React.FC = () => {
                   Maithili <span className="text-[#2D4A6B] italic font-normal">Patel</span>
                 </h1>
                 <p className="text-xl md:text-2xl font-medium text-gray-600">
-                  Robotics PhD Student | <span className="text-[#1A1A1A] font-bold">Georgia Tech</span>
+                  Postdoctoral Researcher | <span className="text-[#1A1A1A] font-bold">CMU</span>
                 </p>
                 <p className="text-lg text-gray-500 leading-relaxed max-w-lg">
                   Developing proactive robots for human  environments. Bridging robot learning and human-centered autonomy.
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                       <a href="https://www.linkedin.com/in/maithili" target="_blank" rel="noopener noreferrer" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="LinkedIn">
                         <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                       </a>
-                      <a href="mailto:maithili@gatech.edu" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="Email">
+                      <a href="mailto:maithili@cmu.edu" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="Email">
                         <svg className="size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                       </a>
                       <a href="https://x.com/MaithiliPatel31" target="_blank" rel="noopener noreferrer" className="size-9 flex items-center justify-center rounded-lg bg-white/50 text-[#1A1A1A] hover:bg-white hover:text-[#2D4A6B] transition-all" aria-label="X (Twitter)">
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
                 <span className="size-3 bg-[#5BA4A4] rounded-full"></span> Bio
               </h2>
               <div className="space-y-6 text-lg leading-relaxed text-gray-600 font-medium">
-                <p> I am a final year Robotics Ph.D. student advised by Professor Sonia Chernova, at GeorgiaTech. My research focuses on developing service robots that seamlessly integrate into users' daily lives, functioning as <span className="text-[#1A1A1A] font-bold">effective and proactive assistants</span> over extended interactions. This involves anticipating assistive opportunities, and generalizing user preferences regarding mode of robot assistance and manner of task execution. I leverage unobtrusive observations of user behavior and limited interaction with the user to address proactivity and personalization. Ultimately, my goal is to build a robot system that can autonomously predict when and how to perform various helpful assistive actions, alleviating not only the users’ physical effort of performing tasks, but also their cognitive burden of managing tasks and ensuring that things get done.</p>
+                <p> I am a Postdoctoral researcher with Prof. Yonatan Bisk at Carnegie Mellon University. Before that I finished my Ph.D. from GeorgiaTech advised by Prof. Sonia Chernova. My research focuses on developing service robots that seamlessly integrate into users' daily lives, functioning as <span className="text-[#1A1A1A] font-bold">effective and proactive assistants</span> over extended interactions. This involves anticipating assistive opportunities, and generalizing user preferences regarding mode of robot assistance and manner of task execution. I leverage unobtrusive observations of user behavior and limited interaction with the user to address proactivity and personalization. Ultimately, my goal is to build a robot system that can autonomously predict when and how to perform various helpful assistive actions, alleviating not only the users’ physical effort of performing tasks, but also their cognitive burden of managing tasks and ensuring that things get done.</p>
                 <p>I was selected to participate in RCAIS Doctoral Consortium, in 2024, HRI Pioneers workshop in 2023 and RPL Summer School, at KTH, Sweden in 2022. I also helped organize CoRL, 2023 and co-organized a workshop at HRI 2023. Through my PhD, I worked with Akshara Rai at Meta in 2024, and with Chandra Bhagavatula at Allen Institute of AI (AI2) in 2023. Prior to starting my PhD, I worked with Toyota Research Institute and Zenuity on mapping and localization for autonomous vehicles, and obtained my master’s degree at the University of Michigan in Ann Arbor, with Prof. Chad Jenkins.</p>
               </div>
           </div>

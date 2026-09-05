@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <p className="text-sm font-bold text-gray-500">© 2026 Maithili Patel — PhD Research</p>
           </div>
           <div className="flex gap-6">
-            <a href="mailto:maithili@gatech.edu" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
+            <a href="mailto:maithili@cmu.edu" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors flex items-center gap-1 text-sm font-bold">
               <span className="material-symbols-outlined text-xl">mail</span>
               Email
             </a>
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </a>
           </div>
           <div className="flex items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
-            <span>Georgia Tech</span>
+            <span>CMU</span>
           </div>
         </div>
       </div>
