@@ -179,7 +179,12 @@ const Home: React.FC = () => {
             <span className="material-symbols-outlined text-[20rem] font-thin text-[#2D4A6B]">menu_book</span>
           </div>
           <div className="flex items-end justify-between mb-20 border-b-2 border-[#1A1A1A] pb-6">
-            <h2 className="text-4xl font-black font-serif italic text-[#1A1A1A]">Publications</h2>
+            <div>
+              <h2 className="text-4xl font-black font-serif italic text-[#1A1A1A]">Publications</h2>
+              <p className="mt-3 text-sm text-gray-500 font-sans">
+                Comments, questions, and critiques on any of this work are welcome — <a href="mailto:maithili@cmu.edu" className="text-[#2D4A6B] underline decoration-[#5BA4A4]/30 decoration-2 hover:decoration-[#2D4A6B]">drop me an email</a>.
+              </p>
+            </div>
             <span className="text-xs uppercase tracking-[0.3em] text-gray-400 font-black mb-1">Archive</span>
           </div>
           <div className="space-y-12 font-serif">
