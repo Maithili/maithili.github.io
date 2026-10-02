@@ -102,6 +102,14 @@ export const PROJECTS: Project[] = [
 
 export const PUBLICATIONS: Publication[] = [
   {
+    id: 'proactive-framework',
+    title: 'Robots That Take Initiative: A Framework for Building and Evaluating Proactive Robots',
+    authors: 'Maithili Patel, Sonia Chernova',
+    venue: 'Under review',
+    year: '2026',
+    pdf: 'https://arxiv.org/abs/2609.28910',
+  },
+  {
     id: 'adapt',
     title: 'ADAPT: Actively Discovering and Adapting to Preferences for any Task',
     authors: 'Maithili Patel, Xavier Puig, Ruta Desai, Roozbeh Mottaghi, Sonia Chernova, Joanne Truong, Akshara Rai',
