@@ -107,7 +107,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: 'Maithili Patel, Sonia Chernova',
     venue: 'Under review',
     year: '2026',
-    pdf: 'https://arxiv.org/abs/2609.28910',
+    pdf: 'https://arxiv.org/pdf/2609.28910',
   },
   {
     id: 'adapt',
