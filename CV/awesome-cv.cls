@@ -47,6 +47,9 @@
 %-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}
+% longtable lets the publication list break across pages instead of jumping
+% to the next page whole and stranding its heading over blank space.
+\RequirePackage{longtable}
 % Needed to handle list environment
 \RequirePackage{enumitem}
 % Needed to handle text alignment
@@ -753,17 +756,21 @@
 \newenvironment{cvpubs}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-1mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1cm} L{\textwidth - 1cm}}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \setlength{\LTleft}{0pt}
+  \setlength{\LTright}{0pt}
+  \setlength{\LTpre}{2.5mm}
+  \setlength{\LTpost}{0pt}
+  \begin{longtable}{@{\extracolsep{\fill}} C{1cm} L{\textwidth - 1cm}}
 }{%
-    \end{tabular*}
-  \end{center}
+  \end{longtable}
 }
+% The first two rows end with \\* so an entry's title, authors and venue are
+% never split across a page break; the last row may break.
 \newcommand*{\cvpub}[4]{%
-  \honordatestyle{#4} & \emphdescriptionstyle{#1}, \\ 
-     & \honorsubtitlestyle{#2} \\ 
+  \honordatestyle{#4} & \emphdescriptionstyle{#1}, \\* 
+     & \honorsubtitlestyle{#2} \\* 
      & \honorsubtitlestyle{#3} \vspace{1mm} \\
 }
 
