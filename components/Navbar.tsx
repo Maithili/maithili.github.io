@@ -12,13 +12,13 @@ const Navbar: React.FC = () => {
           </div>
           <span className="text-lg font-extrabold tracking-tight text-[#1A1A1A]">Maithili Patel</span>
         </a>
-        <div className="hidden md:flex items-center gap-8">
-          <a href="#top" className="text-sm font-bold text-[#1A1A1A] hover:text-[#2D4A6B] transition-colors">Home</a>
+        <div className="flex items-center gap-8">
+          <a href="#top" className="hidden md:block text-sm font-bold text-[#1A1A1A] hover:text-[#2D4A6B] transition-colors">Home</a>
           {/* TODO: Unarchive Projects - <a href="#projects">Projects</a> */}
-          <a href="#updates" className="text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Updates</a>
-          <a href="#publications" className="text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Publications</a>
-          <a href="#hobbies" className="text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Hobbies</a>
-          <div className="h-6 w-px bg-gray-200"></div>
+          <a href="#updates" className="hidden md:block text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Updates</a>
+          <a href="#publications" className="hidden md:block text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Publications</a>
+          <a href="#hobbies" className="hidden md:block text-sm font-bold text-gray-400 hover:text-[#2D4A6B] transition-colors">Hobbies</a>
+          <div className="hidden md:block h-6 w-px bg-gray-200"></div>
           <a href={cvPdf} target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-[#2D4A6B] hover:opacity-80 transition-opacity">CV / Resume</a>
         </div>
       </div>
