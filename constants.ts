@@ -171,7 +171,7 @@ export const PUBLICATIONS: Publication[] = [
 ];
 
 export const UPDATES: Update[] = [
-  { date: 'Aug 2026', title: '', description: 'Started as a Postdoctoral Researcher at Carnegie Mellon University, working with Prof. Yonatan Bisk.' },
+  { date: 'Aug 2026', title: '', description: 'Started as a Postdoctoral Researcher at Carnegie Mellon University, working with <a href="https://talkingtorobots.com/yonatanbisk.html" target="_blank" rel="noopener noreferrer">Prof. Yonatan Bisk</a>.' },
   { date: 'Aug 2026', title: '', description: 'Awarded the Carnegie Bosch Institute <a href="https://carnegiebosch.cmu.edu/news/2026/09/22-new-2026-fellows.html" target="_blank" rel="noopener noreferrer"><b>(CBI) Postdoctoral Fellowship</b></a>, 2026.' },
   { date: 'Jul 2026', title: '', description: '<b>Defended</b> my PhD thesis on "Proactivity and Personalization in Longitudinal Robotic Assistance".' },
   { date: 'Jan 2026', title: '', description: 'Served as Area Chair for Late Breaking Reports at the ACM/IEEE International Conference on Human Robot Interaction (HRI), 2026.' },
