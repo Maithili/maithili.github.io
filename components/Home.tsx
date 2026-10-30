@@ -186,7 +186,9 @@ const Home: React.FC = () => {
                 Comments, questions, and critiques on any of this work are welcome — <a href="mailto:maithili@cmu.edu" className="text-[#2D4A6B] underline decoration-[#5BA4A4]/30 decoration-2 hover:decoration-[#2D4A6B]">drop me an email</a>.
               </p>
             </div>
-            <span className="text-xs uppercase tracking-[0.3em] text-gray-400 font-black mb-1">Archive</span>
+            <a href="https://scholar.google.com/citations?user=dvqkwFYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="size-11 flex items-center justify-center shrink-0 rounded-xl bg-[#FFF2EB] border border-[#FFE4D6] text-[#1A1A1A] hover:bg-white hover:border-[#2D4A6B]/20 transition-all shadow-sm mb-1" aria-label="Google Scholar" title="Google Scholar">
+              <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            </a>
           </div>
           <div className="space-y-12 font-serif">
             {(pubsExpanded ? PUBLICATIONS : PUBLICATIONS.slice(0, INITIAL_PUBS_SHOWN)).map((pub) => (
